@@ -30,10 +30,10 @@ $ node -v
 To terminal, execute os comandos abaixo:
 ```bash
 # Clone o projeto
-$ git clone url
+git clone https://github.com/RaphaelBurgarelli/api-cypress.git
     
 # Acesse o diretório onde o projeto foi clonado
-$ cd acessar pasta
+cd api-cypress
 
 # Execute o comando abaixo para gerenciar as dependências
 $ npm install
