@@ -23,8 +23,8 @@ Projeto de teste de API com Cypress onde validamos a criação, alteração e ex
 
 Para executar o projeto é necessário a instalação do **Nodejs** no ambiente onde os testes serão executados, o download pode ser feito [aqui](https://nodejs.org/en/), e após a instação pode ser validado abrindo o terminal e executando o comando abaixo que em caso de sucesso retornará a versão instalada ex: **v12.18.3**
 
-```
-$ node -v
+```bash
+node -v
 ```
 
 To terminal, execute os comandos abaixo:
@@ -36,18 +36,18 @@ git clone https://github.com/RaphaelBurgarelli/api-cypress.git
 cd api-cypress
 
 # Execute o comando abaixo para gerenciar as dependências
-$ npm install
+npm install
 ```
 ## 🔌 Executando o projeto
 Após a instalação de todos os pacotes, é possível executar a interface do cypress com o comando abaixo:
 ```bash
 # Abrir a interface do Cypress
-$ npm run cypress:open
+npm run cypress:open
 ```
 Com a interface aberta, basta clicar no arquivo **spec.js** contido no caminho ``services/Users/tests`` e então será aberto o navegador onde você poderá acompanhar as execuções e os logs.
 ```bash
 # Executando os testes em modo headless
-$ npm run cypress:run
+npm run cypress:run
 ```
 ---
 
