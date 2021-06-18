@@ -31,10 +31,12 @@ To terminal, execute os comandos abaixo:
 ```bash
 # Clone o projeto
 git clone https://github.com/RaphaelBurgarelli/api-cypress.git
-    
+```
+```bash
 # Acesse o diretório onde o projeto foi clonado
 cd api-cypress
-
+```
+```bash
 # Execute o comando abaixo para gerenciar as dependências
 npm install
 ```
@@ -44,10 +46,18 @@ Após a instalação de todos os pacotes, é possível executar a interface do c
 # Abrir a interface do Cypress
 npm run cypress:open
 ```
+ou
+```bash
+npx cypress open
+```
 Com a interface aberta, basta clicar no arquivo **spec.js** contido no caminho ``services/Users/tests`` e então será aberto o navegador onde você poderá acompanhar as execuções e os logs.
 ```bash
 # Executando os testes em modo headless
 npm run cypress:run
+```
+ou
+```bash
+npx cypress run
 ```
 ---
 
